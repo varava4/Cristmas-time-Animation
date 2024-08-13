@@ -1,6 +1,4 @@
-(() => {
-
-    "use strict";
+   "use strict";
     window.addEventListener("load", windowLoad);
     function windowLoad() {
         document.documentElement.classList.add("loaded");
@@ -74,5 +72,3 @@
             }));
         }
     }
-    window["FLS"] = true;
-})();
